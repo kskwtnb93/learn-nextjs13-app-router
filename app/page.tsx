@@ -1,12 +1,14 @@
-import Header from './_components/header'
+import NotesList from './_components/elements/notes/notes-list'
 
 export default function Home() {
   return (
     <>
-      <Header />
-
       <main>
-        <div className="m-10 text-center">Hello World🚀</div>
+        <div className="m-10 text-center">
+          <p>Hello World 🚀</p>
+
+          <NotesList />
+        </div>
       </main>
     </>
   )
